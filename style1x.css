@@ -1,0 +1,48 @@
+body
+{
+	background-color: royalblue;	
+}
+
+h1
+{
+	color: yellowgreen;
+}
+
+h2
+{
+	color: orangered;
+}
+
+.cadre1
+{
+	background-color: darkred;
+	border: 4px solid yellowgreen;
+	text-align: center;
+	width: 100%;
+	height: 460px;
+}
+
+
+
+.p1
+{
+	color: skyblue;
+	background-color: green;
+	border: 4px solid yellowgreen;
+	width: 60%;
+	height: 150px;
+	margin-left: 200px;
+}
+
+.p2
+{
+	color: #F901F0;
+	background-color: green;
+	border: 4px solid yellowgreen;
+	text-align: center;
+	width: 60%;
+	height: 150px;
+	margin-left: 200px;
+}
+
+
