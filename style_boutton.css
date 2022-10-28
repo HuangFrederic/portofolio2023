@@ -1,0 +1,53 @@
+body
+{
+	background-color: grey;
+	text-align: center;
+}
+
+h1
+{
+	color: lightblue;
+	font-family: Georgia;
+	font-size: 2em;
+}
+
+div
+{
+	border: 2px solid darkorange;
+	width: 45%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 26px;
+	padding: 15px 32px;
+}
+
+button
+{
+	width: 310px;
+	border: 2px solid black;
+	border-radius: 26px;
+	background-color: seagreen;
+	height: 60px;
+	margin-top: 5px;
+	box-shadow: 25px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+button:hover 
+{
+	background-color: black;
+	color: seagreen;
+	border: 2px solid white;
+	transform: rotate(-5deg);
+	cursor: pointer;
+}
+
+
+input
+{
+	border: 2px solid red;
+	border-radius: 26px;
+	width: 400px;
+	height: 40px;
+}

@@ -1,0 +1,56 @@
+body
+{
+	background-color: grey;
+	text-align: center;
+}
+
+h1
+{
+	color: red;
+}
+
+table
+{
+	margin: auto;
+}
+
+label
+{
+	color: yellow;
+	font-weight: bold;
+}
+
+
+input
+{
+	border: 2px solid darkred;
+	border-radius: 26px;
+	width: auto;
+	height: auto;
+	color
+}
+
+
+button
+{
+	width: 170px;
+	border: 2px solid black;
+	border-radius: 26px;
+	background-color: indianred;
+	height: 50px;
+	margin-top: 30px;
+	color: yellow;
+}
+
+button:hover 
+{
+	color: black;
+	border: 2px solid indianred;
+	cursor: pointer;
+	background: linear-gradient(to bottom right, blue, yellow, pink);
+	box-shadow: 10px 5px 10px red;
+}
+
+
+
+

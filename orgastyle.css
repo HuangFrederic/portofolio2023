@@ -1,0 +1,56 @@
+body
+{
+	background-color: grey;
+	text-align: center;
+}
+
+div
+{
+	width: 420px;
+	border: 2px solid red;
+	border-radius: 26px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 220px;
+	padding: 15px 17px;
+	margin-top: 70px;
+}
+
+h1
+{
+	color: skyblue;
+	margin-top: 5px;
+
+}
+
+input
+{
+	border: 2px solid red;
+	border-radius: 26px;
+	width: 300px;
+	height: 40px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+button
+{
+	color: orange;
+	width: 170px;
+	border: 2px solid black;
+	border-radius: 26px;
+	background-color: seagreen;
+	height: 50px;
+	margin-top: 10px;
+	box-shadow: 25px;
+	font-size: 1em;
+	margin-top: 15px;
+}
+
+button:hover 
+{
+	color: black;
+	border: 2px solid white;
+	cursor: pointer;
+	background: linear-gradient(to bottom right, blue, yellow, pink);
+	box-shadow: 10px 5px 10px red;
