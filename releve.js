@@ -10,9 +10,8 @@ function resultat()
     
 
     
-    var somme = Number(a) + Number(b) + Number(c);
+    var somme = Number(a)*Number(d) + Number(b)*Number(e) + Number(c)*Number(f);
     var coeff = Number(d) + Number(e) + Number(f);
-
 
     var moyenne = somme / coeff;
 
