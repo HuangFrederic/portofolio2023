@@ -67,6 +67,10 @@ function test_color()
 
 
 
+
+
+
+
 function somme()
 {
     var a= document.getElementById("t1").value;
@@ -123,3 +127,150 @@ function parite()
         }   
 }
 
+function swap()
+{
+    var v3= "";
+    a= document.getElementById("t1").value;
+    b= document.getElementById("t2").value;
+    v3=a;
+    a=b;
+    b=v3;
+
+    t1.value=a;
+    t2.value=b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+function affichetab()
+{
+    document.write('<table border=8px width=40%');
+    for(let i=0 ; i <= 12; i++)
+    {document.write('<tr><td>*</td><td>*</td><td>*</td></tr>');}
+    document.write('</table>');
+}
+
+function tab2()
+{
+    var t1=prompt('Nombre de ligne')
+
+    document.write('<table border=3px width=40%');
+    for(let i=1 ; i <= t1; i++)
+    {document.write("<tr><td>"+i+"</td><td>*</td><td>*</td></tr>");}
+    document.write('</table>');
+}
+
+function connecter()
+{
+    var c1=prompt('Nom utilisateur');
+    var c2=prompt('Mot de passe');
+
+
+
+    if (c1=='Admin' && c2=='Admin')
+    document.write('Bienvenue:' +login);
+    else
+    alert('Acces refuse');
+
+}
+
+function connecter2()
+{
+  
+    var i = 0;
+    
+    do 
+    {
+    var c1=prompt("Nom utilisateur");
+    var c2=prompt("Mot de passe");
+
+    if (c1=="admin" && c2=="admin")
+    {
+        document.write("Bienvenue" +c1);
+        break;
+    }
+    else
+    alert('Acces refuse');
+    i+=1;
+    }
+    while 
+    (i<3);
+    if (i==3);
+    alert("Delai depasse");
+    
+}
+
+function chaine()
+{
+    var chaine=prompt("Donnez un mot");
+    document.write(chaine.toUpperCase()+"<br>");
+    document.write(chaine.toLowerCase()+"<br>");
+    document.write("La chaine contient      " + chaine.length+ "   caracteres  " + "<br>");
+    document.write("La premiere lettre est " + chaine.substr(0,1)+ "<br>" );
+}
+
+function color()
+{
+    var couleur= prompt("donner une couleur");
+    switch(couleur)
+    {
+        case"rouge" : document.body.style.background = "red";
+        break;
+        case"ROUGE" : document.body.style.background = "red";
+        break;
+        case"bleu" : document.body.style.background = "blue";
+        break;
+        case"BLEU" : document.body.style.background = "blue";
+        break;
+        case"vert" : document.body.style.background = "green";
+        break;
+        case"jaune" : document.body.style.background = "yellow";
+        break;
+
+        default:alert("couleur inconnu");
+    }
+
+}
+
+function bonus()
+{
+
+var totalf=0
+
+do 
+{
+
+var article=prompt("Votre article");
+var prix=prompt("Le prix");
+var quantite=prompt(" La quantite");
+var total= Number(prix) * Number(quantite);
+alert("Vos articles couteront:" +" " +total +"" +"$")
+totalf += total
+alert("Le tout coutera:" +" " +totalf +"" +"$")
+var suite=prompt("Continuer?" +"O/N");
+
+
+
+document.write("Article:" +article +"       "+"<br>")
+document.write("Prix:" +prix +"        "+"<br>") 
+document.write("Quantite:" +quantite +"       "+"<br>") 
+document.write("Total:" +total +"          "+"<br>"+"<br>" )
+
+document.write("Total final:" +totalf +"         ")
+}
+
+while
+(suite=="O")
+
+
+
+}
