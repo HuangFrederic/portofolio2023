@@ -86,14 +86,8 @@ nav > ul li:hover .sous
 .sous a:hover
 {
     border-bottom: none;
-    background-color: yellow
+    background-color: rgb(117, 238, 5)
 
-}
-
-.menu >a::after
-{
-    content: "▼";
-    font-size: 12px;
 }
 
 .sous
@@ -102,15 +96,46 @@ nav > ul li:hover .sous
     box-shadow: 0px 1px 2px #ccc;
     background-color: grey;
     position: absolute;
-    width: 100%;
+    width: 250px;
     z-index: 1000;
 }
 
 nav ul li
 {
     float: left;
-    width: 20%;
+    width: 10%;
     text-align: center;
     position: relative;
 }
+
+.menu-html:hover
+{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(229, 77, 38, 0.75);
+}
+
+.menu-css:hover
+{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.75);
+}
+
+.menu-js:hover
+{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.75);
+}
+
+.menu-sql:hover
+{
+    border-top: 5px solid #BBB;
+    background-color: RGBa(220, 220, 220, 0.75);
+}
+
+.menu-mission:hover
+{
+    border-top: 5px solid rgb(248, 13, 248);
+    background-color: RGBa(222, 9, 220, 0.75);
+}
+
 
