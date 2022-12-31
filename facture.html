@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="facturestyle.css">
+    <script src="facturejs.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <img src="gundam.png">
+    <div class="compagnie">
+        
+        <table border="0">
+            <tr>
+                <td width="92%">Nom de la compagnie</td>
+                <td rowspan="3" class="a" >Facture</td>
+            </tr>
+
+            <tr>
+                <td>Adresse postale</td>
+            </tr>
+
+            <tr>
+                <td>Details du contact</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class="b" >Date</td>
+                
+            </tr>
+                <td></td>
+                <td class="b">No de facture</td>
+            <tr>
+
+            </tr>
+        </table>
+    </div>
+
+    <p class="p1">Condition de paiement, par exemple: dû le X jours</p>
+    <div class="info">
+        <table border="0" width="99%" class="tab2">
+
+            <tr>
+                <td class="bleu">Destinatire <hr></td>
+                <td class="bleu">Envoyez à <hr></td>
+            </tr>
+
+            <tr>
+                <td>Nom</td>
+                <td>Nom</td>
+            </tr>
+
+            <tr>
+                <td>Nom de la sociéte</td>
+                <td>Nom de la sociéte</td>
+            </tr>
+            
+            <tr>
+                <td>Adresse postale</td>
+                <td>Adresse postale</td>
+            </tr>
+
+            <tr>
+                <td>Telephone</td>
+                <td>Telephone</td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td>Email</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="produit">
+        <table border="1" class="tab3">
+        <thead>
+            <td width="50%" class="tab31">DESCRIPTION</td>
+            <td width="15%" class="tab31">QUANTITE</td>
+            <td width="20%" class="tab31">PRIX UNITAIRE</td>
+            <td width="20%" class="total1">TOTAL</td>
+        </tr>
+
+        <tr>
+            <td onclick="total()"><span contenteditable id="d1"></span></td>
+            <td onclick="total()"><span contenteditable id="q1"></span></td>
+            <td onclick="total()"><span contenteditable id="pu1"></span></td>
+            <td onclick="total()" id="t1">0</td>
+          </tr>
+    
+          <tr>
+            <td><span contenteditable id="d2"></span></td>
+            <td><span contenteditable id="q2"></span></td>
+            <td><span contenteditable id="pu2"></span></td>
+            <td id="t2">0</td>
+          </tr>
+    
+        <tr>
+          <td><span contenteditable id="d3"></span></td>
+          <td><span contenteditable id="q3"></span></td>
+          <td><span contenteditable id="pu3"></span></td>
+          <td id="t3">0</td>
+        </tr>
+    
+        <tr>
+          <td><span contenteditable id="d4"></span></td>
+          <td><span contenteditable id="q4"></span></td>
+          <td><span contenteditable id="pu4"></span></td>
+          <td id="t4">0</td>>
+        </tr>
+    
+        <tr>
+          <td><span contenteditable id="d5"></span></td>
+          <td><span contenteditable id="q5"></span></td>
+          <td><span contenteditable id="pu5"></span></td>
+          <td id="t5">0</td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="all">
+        <p class="p2">Remarques, notes et instructions de paiement:</p>
+        <table border="0" class="tab4">
+            <tr>
+                <td width="71.9%"></td>
+                <td>Sous-Total:</td>
+                <td  id="st"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Remise :</td>
+                <td id="r"> <input type="text"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Sous-total moins la remise:</td>
+                <td id="str"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Taux d'imposition:</td>
+                <td  id="ti"><input type="text">%</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Taxe total:</td>
+                <td id="tt"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Expedition, manutention:<hr></td>
+                <td id="em"><input type="text"><hr></td>
+            </tr>
+
+            <tr class="solde">
+                <td></td>
+                <td class="solde">Solde du:</td>
+                <td id="s">0</td>
+                
+            </tr>
+            
+        </table>
+    </div>
+    
+</body>
+</html>
