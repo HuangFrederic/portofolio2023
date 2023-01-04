@@ -59,9 +59,6 @@ remiseInput.addEventListener("input", updateTotal);
 tauximpositionInput.addEventListener("input", updateTotal);
 expeditionInput.addEventListener("input", updateTotal);
 
-// Mettre à jour le tout au chargement de la page
-updateTotal();
-
 }
 
 
